@@ -2020,7 +2020,7 @@ GateOne.Base.update(GateOne.Net, {
                     go.User.loadBell({'mimetype': go.prefs.bellSoundType, 'data_uri': go.prefs.bellSound});
                 } else {
                     logDebug("Attempting to download our bell sound...");
-                    go.ws.send(JSON.stringify({'go:get_bell': null}));
+                    go.ws.send(JSON.stringify({'terminal:get_bell': null}));
                 }
                 if (!go.prefs.auth) {
                     // If 'auth' isn't set that means we're not in API mode but we could still be embedded so check for the user's session info in localStorage
