@@ -3,11 +3,11 @@
 #{{container}} span.f0 { color: #444; } /* Black */
 #{{container}} span.f1 { color: #D6292C; } /* Red */
 #{{container}} span.f2 { color: #13A110; } /* Green */
-#{{container}} span.f3 { color: #E9E900; } /* Yellow */
+#{{container}} span.f3 { color: #bb0; } /* Yellow */
 #{{container}} span.f4 { color: #1B4CFF; } /* Blue */
 #{{container}} span.f5 { color: #E01DC6; } /* Magenta */
 #{{container}} span.f6 { color: #28AAA8; } /* Cyan */
-#{{container}} span.f7 { color: #eee; } /* White */
+#{{container}} span.f7 { color: #aaa; } /* White */
 /* 8-color Foregrounds on 8-color Backgrounds (need special handling to make the black text more readable) */
 #{{container}} span.f0.b0 { color: #444; background-color: #000; } /* Black on Black */
 #{{container}} span.f0.b1 { color: #000; background-color: #B21818; } /* Black on Red */
@@ -50,7 +50,7 @@
 /* 16-color ('Bright') Foregrounds */
 #{{container}} span.bf0 { color: #5C5C5C; } /* Bright Black!  I never knew thee existed! */
 #{{container}} span.bf1 { color: #D6292C; } /* Bright Red */
-#{{container}} span.bf2 { color: #13A110; } /* Bright Green */
+#{{container}} span.bf2 { color: #00FF00; } /* Bright Green */
 #{{container}} span.bf3 { color: #E9E900; } /* Bright Yellow */
 #{{container}} span.bf4 { color: #1B4CFF; } /* Bright Blue */
 #{{container}} span.bf5 { color: #E01DC6; } /* Bright Magenta */
